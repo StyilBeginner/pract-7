@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Form</title>
+   <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<form class="block-center form">
+   <!-- BEGIN (write your solution here) -->
+   <h1>Обратная связь</h1>
+   <div class="form-input mb-2">
+      <label for="name" class="sr-only">Ваше имя</label>
+      <input type="text" id="name" placeholder="Ваше имя">
+   </div>
+   <div class="form-input mb-2">
+      <label for="Email" class="sr-only">Ваш Email</label>
+      <input type="text" id="Email" placeholder="Ваш Email">
+   </div>
+   <div class="form-input mb-2">
+      <label for="mess" class="sr-only">Ваше сообщение</label>
+      <textarea id="mess" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+   </div>
+
+   <div class="small mb-1">
+      <label>
+         <input type="checkbox" name="accept" value="Accept Rule">
+         Я принимаю правила сервиса
+      </label>
+   </div>
+   <!-- END -->
+   <button class="btn btn-green">Отправить сообщение</button>
+</form>
+</body>
+</html>
